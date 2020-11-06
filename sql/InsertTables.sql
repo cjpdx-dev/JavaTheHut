@@ -1,0 +1,26 @@
+
+use "234a_JavaTheHut";
+
+
+
+
+INSERT INTO USERS VALUES ('Mary Smith','111@222','mary.smith@pcc.edu','user'); 
+INSERT INTO USERS VALUES ('Zhimin Xi', '111@333', 'zhimin.xi@pcc.edu','user');
+INSERT INTO USERS VALUES ('Bob McBobberson', '12345', 'bob@bob.com', 'admin');
+INSERT INTO USERS VALUES ('Chris Jacobs', '12345', 'cjacobs.pdx@gmail.com', 'therapist');
+
+
+
+INSERT INTO TEST VALUES (101,'COLOR');
+
+
+INSERT INTO ITEM VALUES (1001, 101,'RED');
+INSERT INTO ITEM VALUES (1002, 101, 'GREEN');
+INSERT INTO ITEM VALUES (1003, 101, 'BLUE');
+
+
+INSERT INTO SESSION VALUES (90001, 1002,101,CAST ('2017-12-17' AS datetime));
+INSERT INTO SESSION VALUES (90002,1002, 101, CAST('2018-10-14' AS datetime));
+
+
+INSERT INTO RESULT VALUES(8001, 90001,1001,1002,1001);
